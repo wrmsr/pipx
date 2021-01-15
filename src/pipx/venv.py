@@ -5,7 +5,7 @@ from pathlib import Path
 from subprocess import CompletedProcess
 from typing import Dict, Generator, List, NamedTuple, Set
 
-from packaging.utils import canonicalize_name
+from pipx._vendor.packaging.utils import canonicalize_name
 
 from pipx.animate import animate
 from pipx.constants import PIPX_SHARED_PTH, ExitCode

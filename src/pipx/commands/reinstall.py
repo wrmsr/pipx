@@ -2,7 +2,7 @@ import sys
 from pathlib import Path
 from typing import List, Sequence
 
-from packaging.utils import canonicalize_name
+from pipx._vendor.packaging.utils import canonicalize_name
 
 import pipx.shared_libs  # import instead of from so mockable in tests
 from pipx.commands.inject import inject_dep

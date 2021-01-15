@@ -9,8 +9,8 @@ from shutil import which
 from tempfile import TemporaryDirectory
 from typing import Dict, List, Optional, Set, Tuple
 
-import userpath  # type: ignore
-from packaging.utils import canonicalize_name
+from pipx._vendor import userpath  # type: ignore
+from pipx._vendor.packaging.utils import canonicalize_name
 
 from pipx import constants
 from pipx.colors import bold, red

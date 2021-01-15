@@ -11,9 +11,9 @@ import re
 from pathlib import Path
 from typing import List, NamedTuple, Optional, Tuple
 
-from packaging.requirements import InvalidRequirement, Requirement
-from packaging.specifiers import SpecifierSet
-from packaging.utils import canonicalize_name
+from pipx._vendor.packaging.requirements import InvalidRequirement, Requirement
+from pipx._vendor.packaging.specifiers import SpecifierSet
+from pipx._vendor.packaging.utils import canonicalize_name
 
 from pipx.emojies import hazard
 from pipx.util import PipxError, pipx_wrap

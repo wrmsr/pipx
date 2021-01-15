@@ -15,8 +15,8 @@ import urllib.parse
 from pathlib import Path
 from typing import Dict, List
 
-import argcomplete  # type: ignore
-from packaging.utils import canonicalize_name
+from pipx._vendor import argcomplete  # type: ignore
+from pipx._vendor.packaging.utils import canonicalize_name
 
 from pipx import commands, constants
 from pipx.animate import hide_cursor, show_cursor
