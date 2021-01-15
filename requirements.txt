@@ -1,0 +1,5 @@
+argcomplete==1.12.2  #@license(apache)
+click==7.1.2  #@license(bsd3)
+packaging==20.8  #@license(bsd2)
+pyparsing==2.4.7  #@license(mit)
+userpath==1.4.1  #@license(mit)
