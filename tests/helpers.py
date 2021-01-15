@@ -8,7 +8,7 @@ from shutil import which
 from typing import Any, Dict, List, Optional
 from unittest import mock
 
-from packaging.utils import canonicalize_name
+from pipx._vendor.packaging.utils import canonicalize_name
 
 from pipx import constants, main, pipx_metadata_file
 
